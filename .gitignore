@@ -1,3 +1,25 @@
-/dataset
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Model files
+models/*.pth
+
+# Data
+notebooks/dataset
+data/input_videos/*
+data/output_recipes/*
+!data/input_videos/.gitkeep
+!data/output_recipes/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
 .DS_Store
-*.pth

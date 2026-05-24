@@ -1,0 +1,26 @@
+# Core ML
+torch>=2.0.0
+torchvision>=0.15.0
+torchmetrics
+
+# Vision / video
+opencv-python
+Pillow
+pycocotools
+
+# Audio / transcription
+openai-whisper
+
+# OCR
+easyocr
+
+# LLM
+anthropic>=0.40.0
+python-dotenv
+
+# Web app
+streamlit
+
+# Notebook
+jupyter
+matplotlib
