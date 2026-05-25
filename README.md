@@ -1,13 +1,13 @@
 # 🍎 Recept Extractor
 
-Een applicatie dat kookvideo's omzet naar gestructureerde recepten. Het systeem
+Een applicatie dat kookvideo's omzet naar gestructureerde recepten. De applicatie
 combineert object detection (Faster R-CNN), audio transcriptie (Whisper), Optical Character Recognition (EasyOCR)
 en een LLM (Claude) om uit een video een recept met ingredientenlijst
 en stappen te genereren.
 
 ## 📐 Architectuur
 
-Video → [Frames + Audio] → [Detectie + Transcript] → [Merge] → [Claude] → Recept
+Video → [Frames + Audio] → [Detectie + Transcript + OCR] → [Merge] → [Claude] → Recept
 
 Zie `notebooks/recipes.ipynb` voor het trainen van het object detection model.
 
