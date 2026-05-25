@@ -50,6 +50,6 @@ Zie `notebooks/recipes.ipynb` voor het trainen van het object detection model.
 
 streamlit run app/streamlit.py
 
-## 🚧 Bekende beperkingen / future work
+## 🚧 Beperkingen / future work
 
 - Dataset moet uitgebreid worden naar meer ingredienten
