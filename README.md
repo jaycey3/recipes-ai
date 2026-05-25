@@ -13,19 +13,19 @@ Zie `notebooks/recipes.ipynb` voor het trainen van het object detection model.
 
 ## 📂 Structuur
 
-recepten-ai/
-├── notebooks/        Trainingsnotebook en datast voor Faster R-CNN
-├── src/              Pipeline modules
-│   ├── frames.py     Frame extraction (OpenCV)
-│   ├── detection.py  Object detection wrapper
-│   ├── audio.py      Audio transcriptie met Whisper
-│   ├── merge.py      Detecties, transcript en OCR samenvoegen
-│   ├── llm.py        Claude API call
-│   ├── ocr.py        OCR met EasyOCR
-│   └── pipeline.py   Orchestratie van alle stappen
-├── app/              Streamlit web frontend
-├── models/           Getrainde object detection models (.pth)
-└── data/             Input videos + output recepten
+- recepten-ai/
+- ├── notebooks/        Trainingsnotebook en datast voor Faster R-CNN
+- ├── src/              Pipeline modules
+- │   ├── frames.py     Frame extraction (OpenCV)
+- │   ├── detection.py  Object detection wrapper
+- │   ├── audio.py      Audio transcriptie met Whisper
+- │   ├── merge.py      Detecties, transcript en OCR samenvoegen
+- │   ├── llm.py        Claude API call
+- │   ├── ocr.py        OCR met EasyOCR
+- │   └── pipeline.py   Orchestratie van alle stappen
+- ├── app/              Streamlit web frontend
+- ├── models/           Getrainde object detection models (.pth)
+- └── data/             Input videos + output recepten
 
 ## 🚀 Setup
 
