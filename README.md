@@ -13,7 +13,7 @@ Zie `notebooks/recipes.ipynb` voor het trainen van het object detection model.
 
 ## 📂 Structuur
 
-- recepten-ai/
+- recepies-ai/
 - ├── notebooks/        Trainingsnotebook en datast voor Faster R-CNN
 - ├── src/              Pipeline modules
 - │   ├── frames.py     Frame extraction (OpenCV)
